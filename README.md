@@ -3,6 +3,22 @@
 Aplikasi manajemen proyek berbasis **React 19 + TypeScript + Vite** dengan Gantt Chart,
 perhitungan **Critical Path Method (CPM)**, dan analisis **PERT**.
 
+## Tampilan
+
+### Gantt Chart
+
+Bagan Gantt interaktif: batang tugas & tugas ringkasan, panah dependensi (FS/SS),
+penanda jalur kritis, bar progres, dan avatar anggota tim.
+
+![Gantt Chart](docs/gantt-chart.png)
+
+### Analisis CPM & PERT
+
+Ringkasan durasi & peluang selesai, jalur kritis, tabel CPM (ES/EF/LS/LF/slack),
+serta diagram PERT activity-on-node.
+
+![Analisis CPM dan PERT](docs/analysis-view.png)
+
 ## Prasyarat
 
 - **Node.js 20.19+ atau 22.12+** (syarat mesin dari Vite 8) dan npm 10+.
